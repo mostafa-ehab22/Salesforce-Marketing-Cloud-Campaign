@@ -8,9 +8,9 @@ A **14-day, multi-channel lead nurture and cross-sell campaign** for the *Badya 
 
 The brief asked for **120 booked site visits** from a list of **460 rows**. The build resolves that list to **420 unified individuals**, splits it into **three mutually exclusive audiences**, and orchestrates everything in **Salesforce Flow** with live consent and suppression checks before every send.
 
-> [!NOTE]
-> This is a **training exercise** completed during my Xperience 1st internship. Palm Hills is the example client, and all contact data is synthetic and intentionally not included in this repo.
-
+> [!IMPORTANT]
+> Completed during my [Xperience 1st](https://xperience1st.com/) internship. Palm Hills is the example client, and all contact data is synthetic and intentionally not included in this repo.
+> 
 <div align="center">
   <img src="docs/multi_bu_architecture.png" alt="Recommended Multi-BU Architecture" width="70%"/>
 </div>
