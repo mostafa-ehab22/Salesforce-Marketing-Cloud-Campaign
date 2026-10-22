@@ -1,0 +1,4 @@
+# Never commit contact lists or consent exports
+*.csv
+*.xlsx
+.DS_Store
