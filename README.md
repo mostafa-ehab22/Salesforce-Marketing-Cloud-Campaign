@@ -208,4 +208,8 @@ Consent is stored as **individual consent records**, not a single boolean, and r
 ```
 
 ## 🛠️ Tech Stack
-**Marketing Cloud Next** · **Data 360** (Identity Resolution, Segments, Calculated Insights) · **Salesforce Flow** (Segment-triggered, Data Cloud-triggered, Autolaunched) · **Communication Subscriptions & Consent Imports** · **Email Locale Variants (Arabic / English)**
+- **Marketing Cloud Next**
+- **Data 360** `(Identity Resolution, Segments, Calculated Insights)`
+- **Salesforce Flow** `(Segment-triggered, Data Cloud-triggered, Autolaunched)`
+- **Communication Subscriptions & Consent Imports**
+- **Email Locale Variants** `(Arabic / English)`
