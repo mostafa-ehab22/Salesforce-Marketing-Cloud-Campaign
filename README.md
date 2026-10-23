@@ -87,7 +87,7 @@ Runs at entry and before every send. A contact exits if **any** condition is tru
   <img src="docs/flow_suppression_check.png" alt="Global Suppression Check decision" width="99%"/>
 </div>
 
-This is what solves the **marketing overlap** problem: owners can never receive first-time buyer nurture, and nobody is over-messaged.
+This solves the **marketing overlap** problem: owners never receive first-time buyer nurture and nobody is over-messaged.
 
 ### Language Routing
 One journey, one timing, two routes. The email element uses **Locale = `Preferred_Language`**, so Arabic contacts get the Arabic variant of `PHD-E1` and everyone else (including blank) gets English.
