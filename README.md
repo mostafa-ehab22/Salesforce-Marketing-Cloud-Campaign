@@ -107,8 +107,8 @@ One journey, one timing, two routes. The email element uses **Locale = `Preferre
 ### Engagement Branching
 
 <div align="center">
-  <img src="docs/flow_first_engagement_branching.png" alt="First engagement branching" width="48%" height="310px"/>
-  <img src="docs/flow_second_engagement_check.png" alt="Second engagement check" width="48%" height="310px"/>
+  <img src="docs/flow_first_engagement_branching.png" alt="First engagement branching" width="48%" height="290px"/>
+  <img src="docs/flow_second_engagement_check.png" alt="Second engagement check" width="48%" height="290px"/>
 </div>
 
 Details in [`docs/journey_design.md`](docs/journey_design.md).
