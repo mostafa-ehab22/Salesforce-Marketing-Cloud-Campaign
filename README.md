@@ -14,6 +14,13 @@ The brief asked for **120 booked site visits** from a list of **460 rows**. The 
   <img src="docs/Badya Campaign.png" alt="Recommended Multi-BU Architecture" width="100%"/>
 </div>
 
+## 🛠️ Tech Stack
+- **Marketing Cloud Next**
+- **Data 360** `(Identity Resolution, Segments, Calculated Insights)`
+- **Salesforce Flow** `(Segment-triggered, Data Cloud-triggered, Autolaunched)`
+- **Communication Subscriptions & Consent Imports**
+- **Email Locale Variants** `(Arabic / English)`
+
 ## 🧩 The Problem
 
 Four months of paid social and portal lead generation filled the pipeline, but **volume is not conversion**. Without a structured nurture strategy:
@@ -37,8 +44,8 @@ All three segments are built on **`UnifiedIndividual`** and refresh daily at **0
 
 <div align="center">
 
-| | 🎯 High-Intent Leads | 🏠 Owners (Second Unit) | 💤 Dormant Enquiries |
-|---|:---:|:---:|:---:|
+| Metric | 🎯 High-Intent Leads | 🏠 Owners (Second Unit) | 💤 Dormant Enquiries |
+|:---:|:---:|:---:|:---:|
 | **Size** | 37 | 24 | 27 |
 | **Who** | Uncontracted, enquired, 8M+ EGP budget | Purchased in Badya, active in app | Uncontracted, gone quiet |
 | **Key rule** | Last activity ≤ 90 days | App sessions (30d) ≥ 3, installments current | Last activity 91-365 days |
@@ -185,10 +192,3 @@ Consent is stored as **individual consent records**, not a single boolean, and r
     ├── Badya_Campaign_Build_Deck.pdf     # Full presentation
     └── *.png                             # Screenshots
 ```
-
-## 🛠️ Tech Stack
-- **Marketing Cloud Next**
-- **Data 360** `(Identity Resolution, Segments, Calculated Insights)`
-- **Salesforce Flow** `(Segment-triggered, Data Cloud-triggered, Autolaunched)`
-- **Communication Subscriptions & Consent Imports**
-- **Email Locale Variants** `(Arabic / English)`
