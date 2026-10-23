@@ -27,21 +27,11 @@ Four months of paid social and portal lead generation filled the pipeline, but *
 ## 🧮 The Honest Math
 
 <div align="center">
-
-| | Count | Note |
-|:---|:---:|:---|
-| Source list rows | **460** | Raw import |
-| Unified individuals | **420** | After identity resolution |
-| 🎯 High-Intent Leads | **37** | Warm, uncontracted, in price band |
-| 🏠 Owners worth a second unit | **24** | Current on installments, active in community app |
-| 💤 Dormant Enquiries | **27** | Re-engagement only |
-| ✅ Warm, reachable base | **61** | High-Intent + Owners, before consent filters |
-| 🎯 Target | **120** | Booked site visits in 14 days |
-
+  <img src="docs/honest_math.png" alt="460 rows resolve to 420 people, 61 are warm, the target is 120 booked visits" width="100%"/>
 </div>
 
 > [!IMPORTANT]
-> **No journey design closes a 61 vs 120 gap on its own.** The honest output of this build is maximum conversion of the 61, a clean suppression list, and a documented case for growing the qualified pipeline before the next release window. The gap is a **data reality that paid media must close**, not a build error.
+> **No journey design can turn 61 warm people into 120 booked visits.** This build converts as many of the 61 as possible, keeps suppression clean, and makes the case for adding qualified leads through paid media before the next release.
 
 ## 🧱 Three Audiences, One List
 
@@ -112,11 +102,8 @@ One journey, one timing, two routes. The email element uses **Locale = `Preferre
 ### Engagement Branching
 
 <div align="center">
-  <img src="docs/flow_first_engagement_branching.png" alt="First engagement branching" width="80%"/>
-</div>
-
-<div align="center">
-  <img src="docs/flow_second_engagement_check.png" alt="Second engagement check" width="60%"/>
+  <img src="docs/flow_first_engagement_branching.png" alt="First engagement branching" width="48%" height="330px"/>
+  <img src="docs/flow_second_engagement_check.png" alt="Second engagement check" width="48%" height="330px"/>
 </div>
 
 Details in [`docs/journey_design.md`](docs/journey_design.md).
@@ -162,7 +149,7 @@ The one decision it must get right: **is this message promotional or transaction
 **No channel is used without a valid consent record.** Email is primary, SMS is the fallback where explicit SMS consent exists, and WhatsApp is reserved for owners active in the community app.
 
 > [!WARNING]
-> **Not Set is treated as no consent.** A blank or null consent never means "yes", and the journey suppresses that channel with no send and no fallback attempt.
+> **Not Set is treated as no consent.** A blank or null consent never means "yes", and the journey suppresses that channel.
 
 <div align="center">
 
@@ -173,11 +160,6 @@ The one decision it must get right: **is this message promotional or transaction
 | Palm Hills Resale & Investment | Email |
 | Palm Hills Events & Community | Email, WhatsApp |
 
-</div>
-
-<div align="center">
-  <img src="docs/consent_subscriptions.png" alt="Communication subscriptions" width="45%"/>
-  <img src="docs/consent_imports.png" alt="Consent imports" width="52%"/>
 </div>
 
 Consent is stored as **individual consent records**, not a single boolean, and re-read at the moment of dispatch. Every Preference Centre toggle writes back to the live record, so a mid-journey opt-out is honoured on the **next node**. Full model in [`docs/consent_model.md`](docs/consent_model.md).
