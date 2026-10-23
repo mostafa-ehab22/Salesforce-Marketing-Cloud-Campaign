@@ -67,7 +67,7 @@ All three segments are built on **`UnifiedIndividual`** and refresh daily at **0
 
 Full rules in [`docs/segment_logic.md`](docs/segment_logic.md).
 
-## 🗺️ The Journey (High-Intent, 14 Days)
+## 🗺️ The Journey: High-Intent in 14 Days
 
 A **segment-triggered Flow**, refreshed and injected daily at 09:00. Every wait is anchored to **entry time**, never a calendar date, and a decision split re-checks consent and suppression **immediately before each send**.
 
@@ -88,7 +88,7 @@ Entry (daily 09:00) → Stamp Entry Timestamp
                     → Update Lead Status: Cold Nurture → END
 ```
 
-### 🛡️ Global Suppression Check
+### Global Suppression Check
 Runs at entry and before every send. A contact exits if **any** condition is true:
 1. Converted to an Owner
 2. Has an open complaint
@@ -101,7 +101,7 @@ Runs at entry and before every send. A contact exits if **any** condition is tru
 
 This is what solves the **marketing overlap** problem: owners can never receive first-time buyer nurture, and nobody is over-messaged.
 
-### 🌍 Language Routing
+### Language Routing
 One journey, one timing, two routes. The email element uses **Locale = `Preferred_Language`**, so Arabic contacts get the Arabic variant of `PHD-E1` and everyone else (including blank) gets English.
 
 <div align="center">
@@ -109,7 +109,7 @@ One journey, one timing, two routes. The email element uses **Locale = `Preferre
   <img src="docs/email_phd_e1_arabic.png" alt="PHD-E1 Arabic" width="48%"/>
 </div>
 
-### 🔀 Engagement Branching
+### Engagement Branching
 
 <div align="center">
   <img src="docs/flow_first_engagement_branching.png" alt="First engagement branching" width="80%"/>
