@@ -11,7 +11,7 @@ The brief asked for **120 booked site visits** from a list of **460 rows**. The 
 > Completed during my [Xperience 1st](https://xperience1st.com/) internship. Palm Hills is the example client and all contact data is synthetic.
 > 
 <div align="center">
-  <img src="docs/multi_bu_architecture.png" alt="Recommended Multi-BU Architecture" width="70%"/>
+  <img src="docs/Badya Campaign.png" alt="Recommended Multi-BU Architecture" width="99%"/>
 </div>
 
 ## 🧩 The Problem
