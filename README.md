@@ -22,16 +22,14 @@ Four months of paid social and portal lead generation filled the pipeline, but *
 - Warm prospects receive irrelevant messages (e.g. first-time buyer emails reaching existing owners)
 - Sales chases noise, and multiple agents can call the same lead
 
-**Goal:** make the existing base work harder before any new paid spend is justified. Success is measured by **confirmed appointments**, not opens or clicks.
+**Goal:** make the existing base work harder before any new paid spend is justified. Success is measured by **confirmed appointments**, not clicks.
 
 ## 🧮 The Honest Math
+**No journey design can turn 61 warm people into 120 booked visits.** This build converts as many of the 61 as possible, keeps suppression clean, and makes the case for adding qualified leads through paid media before the next release.
 
 <div align="center">
   <img src="docs/honest_math.png" alt="460 rows resolve to 420 people, 61 are warm, the target is 120 booked visits" width="100%"/>
 </div>
-
-> [!IMPORTANT]
-> **No journey design can turn 61 warm people into 120 booked visits.** This build converts as many of the 61 as possible, keeps suppression clean, and makes the case for adding qualified leads through paid media before the next release.
 
 ## 🧱 Three Audiences, One List
 
