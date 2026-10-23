@@ -47,8 +47,8 @@ All three segments are built on **`UnifiedIndividual`** and refresh daily at **0
 | Metric | 🎯 High-Intent Leads | 🏠 Owners (Second Unit) | 💤 Dormant Enquiries |
 |:---:|:---:|:---:|:---:|
 | **Size** | 37 | 24 | 27 |
-| **Who** | Uncontracted, enquired, 8M+ EGP budget | Purchased in Badya, active in app | Uncontracted, gone quiet |
-| **Key rule** | Last activity ≤ 90 days | App sessions (30d) ≥ 3, installments current | Last activity 91-365 days |
+| **Who** | Uncontracted, enquired, 8M+ EGP | Purchased in Badya, active in app | Uncontracted, gone quiet |
+| **Key rule** | Last activity ≤ 90 days | App sessions (30d) ≥ 3, current | Last activity 91-365 days |
 | **Lookback** | 90 days | 30 days | 1 year |
 | **Subscription** | Project Launches | Resale & Investment | Project Launches |
 | **First email** | `PHD-E1` shortlist | `PHD-E2` owner-only allocation | `PHD-E3` one question, one link |
