@@ -1,17 +1,15 @@
 # 🎯 Project Overview
 ![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?logo=salesforce&logoColor=white)
 ![Marketing Cloud Next](https://img.shields.io/badge/Marketing_Cloud_Next-F88962?logo=salesforce&logoColor=white)
-![Data 360](https://img.shields.io/badge/Data_360-0B827C?logo=salesforce&logoColor=white)
+![Data Cloud](https://img.shields.io/badge/Data_360-0B827C?logo=salesforce&logoColor=white)
 
-A **14-day, multi-channel lead nurture and cross-sell campaign** for the *Badya Second Release* (Palm Hills Developments, West Cairo), built end to end on **Marketing Cloud Next** and **Data 360**.
-
-The brief asked for **120 booked site visits** from a list of **460 rows**. The build resolves that list to **420 unified individuals**, splits it into **three mutually exclusive audiences**, and orchestrates everything in **Salesforce Flow** with live consent and suppression checks before every send.
+A **14-day, multi-channel lead nurture and cross-sell campaign** for the *Badya Second Release* (Palm Hills Developments), built end to end on **Marketing Cloud Next** and **Data Cloud**.
 
 > [!IMPORTANT]
 > Completed during my [Xperience 1st](https://xperience1st.com/) internship. Palm Hills is the example client and all contact data is synthetic.
-> 
+
 <div align="center">
-  <img src="docs/Badya Campaign.png" alt="Recommended Multi-BU Architecture" width="100%"/>
+  <img src="docs/Badya Campaign.png" alt="Badya Second Release Lead Nurture Campaign" width="100%"/>
 </div>
 
 ## 🛠️ Tech Stack
@@ -21,7 +19,7 @@ The brief asked for **120 booked site visits** from a list of **460 rows**. The 
 - **Communication Subscriptions & Consent Imports**
 - **Email Locale Variants** `(Arabic / English)`
 
-## 🧩 The Problem
+## 🧩 Problem
 
 Four months of paid social and portal lead generation filled the pipeline, but **volume is not conversion**. Without a structured nurture strategy:
 
@@ -29,9 +27,14 @@ Four months of paid social and portal lead generation filled the pipeline, but *
 - Warm prospects receive irrelevant messages (e.g. first-time buyer emails reaching existing owners)
 - Sales chases noise, and multiple agents can call the same lead
 
-**Goal:** make the existing base work harder before any new paid spend is justified. Success is measured by **confirmed appointments**, not clicks.
+## 🎯 Objectives
 
-## 🧮 The Honest Math
+- **Target:** drive **120 booked site visits** in 14 days from a list of **460 rows**
+- **Goal:** make the existing base work harder before any new paid spend is justified
+- **Success metric:** confirmed appointments, not clicks or opens
+- **Approach:** resolve the list to **420 unified individuals**, split them into **three mutually exclusive audiences**, and orchestrate everything in **Salesforce Flow** with live consent and suppression checks before every send
+
+## 🧮 Honest Math
 **No journey design can turn 61 warm people into 120 booked visits.** This build converts as many of the 61 as possible, keeps suppression clean, and makes the case for adding qualified leads through paid media before the next release.
 
 <div align="center">
