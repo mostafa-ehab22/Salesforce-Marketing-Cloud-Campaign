@@ -46,7 +46,7 @@ Identity resolution cut the list in two steps:
 - **460 rows** resolved to **420 unified individuals**
 - Only **61 of them are warm** (37 High-Intent Leads + 24 Owners), and the other 27 Dormant Enquiries are cold
 
-> > [!IMPORTANT]
+> [!IMPORTANT]
 > **No journey design can turn 61 warm people into 120 booked visits.** This build converts as many of the 61 as possible and makes the case for more qualified leads.
 
 <div align="center">
