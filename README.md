@@ -1,7 +1,7 @@
 # 🎯 Project Overview
-![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?logo=salesforce&logoColor=white)
-![Marketing Cloud Next](https://img.shields.io/badge/Marketing_Cloud_Next-F88962?logo=salesforce&logoColor=white)
-![Data Cloud](https://img.shields.io/badge/Data_Cloud-0B827C?logo=salesforce&logoColor=white)
+![Salesforce](https://img.shields.io/badge/☁️_Salesforce-00A1E0?logo=salesforce&logoColor=white)
+![Marketing Cloud Next](https://img.shields.io/badge/🔍_Marketing_Cloud_Next-F88962?logo=salesforce&logoColor=white)
+![Data Cloud](https://img.shields.io/badge/📊_Data_Cloud-0B827C?logo=salesforce&logoColor=white)
 
 A **14-day, multi-channel lead nurture and cross-sell campaign** for the *Badya Second Release* (Palm Hills Developments), built end to end on **Marketing Cloud Next** and **Data Cloud**.
 
