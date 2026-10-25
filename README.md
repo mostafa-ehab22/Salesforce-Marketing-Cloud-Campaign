@@ -51,7 +51,7 @@ Four months of paid social and portal lead generation filled the pipeline, but *
 </div>
 
 > [!IMPORTANT]
-> **No journey design can turn 61 warm people into 120 booked visits.** This build converts as many of the 61 as possible.
+> **No journey design can turn 61 warm people into 120 booked visits.**
 
 ## 🧱 Three Audiences, One List
 
