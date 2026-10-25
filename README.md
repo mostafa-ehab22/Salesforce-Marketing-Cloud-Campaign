@@ -149,7 +149,7 @@ The one decision it must get right: **is this message promotional or transaction
 
 </div>
 
-## ✅ Consent & Preference Centre
+## ✅ Consent & Preferences
 
 **No channel is used without a valid consent record.** Email is primary, SMS is the fallback where explicit SMS consent exists, and WhatsApp is reserved for owners active in the community app.
 
