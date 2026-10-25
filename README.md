@@ -29,13 +29,25 @@ Four months of paid social and portal lead generation filled the pipeline, but *
 
 ## 🎯 Objectives
 
-- **Target:** drive **120 booked site visits** in 14 days from a list of **460 rows**
-- **Goal:** make the existing base work harder before any new paid spend is justified
-- **Success metric:** confirmed appointments, not clicks or opens
-- **Approach:** resolve the list to **420 unified individuals**, split them into **three mutually exclusive audiences**, and orchestrate everything in **Salesforce Flow** with live consent and suppression checks before every send
+**Target:** drive **120 booked site visits** in 14 days from a list of **460 rows**, before any new paid spend.
 
-## 🧮 Honest Math
-**No journey design can turn 61 warm people into 120 booked visits.** This build converts as many of the 61 as possible, keeps suppression clean, and makes the case for adding qualified leads through paid media before the next release.
+- **Unify the list:** resolve duplicate rows into single customer profiles with **Data 360 identity resolution**
+- **Separate the audiences:** split contacts into **mutually exclusive segments**, so first-time buyer messages never reach existing owners
+- **Respect consent:** check consent and suppression **before every send** across Email, SMS, and WhatsApp
+- **Hand over cleanly:** route warm leads to sales automatically, with **one owner per lead**
+
+> [!NOTE]
+> Success is measured by **confirmed appointments**, not opens or clicks.
+
+## 🧮 The Honest Math
+
+Identity resolution cut the list in two steps:
+
+- **460 rows** resolved to **420 unified individuals**
+- Only **61 of them are warm** (37 High-Intent Leads + 24 Owners), and the other 27 Dormant Enquiries are cold
+
+> > [!IMPORTANT]
+> **No journey design can turn 61 warm people into 120 booked visits.** This build converts as many of the 61 as possible and makes the case for more qualified leads.
 
 <div align="center">
   <img src="docs/honest_math.png" alt="460 rows resolve to 420 people, 61 are warm, the target is 120 booked visits" width="100%"/>
