@@ -1,7 +1,7 @@
 # 🎯 Project Overview
 ![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?logo=salesforce&logoColor=white)
 ![Marketing Cloud Next](https://img.shields.io/badge/Marketing_Cloud_Next-F88962?logo=salesforce&logoColor=white)
-![Data Cloud](https://img.shields.io/badge/Data_360-0B827C?logo=salesforce&logoColor=white)
+![Data Cloud](https://img.shields.io/badge/Data_Cloud-0B827C?logo=salesforce&logoColor=white)
 
 A **14-day, multi-channel lead nurture and cross-sell campaign** for the *Badya Second Release* (Palm Hills Developments), built end to end on **Marketing Cloud Next** and **Data Cloud**.
 
@@ -14,7 +14,7 @@ A **14-day, multi-channel lead nurture and cross-sell campaign** for the *Badya 
 
 ## 🛠️ Tech Stack
 - **Marketing Cloud Next**
-- **Data 360** `(Identity Resolution, Segments, Calculated Insights)`
+- **Data Cloud** `(Identity Resolution, Segments, Calculated Insights)`
 - **Salesforce Flow** `(Segment-triggered, Data Cloud-triggered, Autolaunched)`
 - **Communication Subscriptions & Consent Imports**
 - **Email Locale Variants** `(Arabic / English)`
@@ -31,7 +31,7 @@ Four months of paid social and portal lead generation filled the pipeline, but *
 
 **Target:** drive **120 booked site visits** in 14 days from a list of **460 rows**, before any new paid spend.
 
-- **Unify the list:** resolve duplicate rows into single customer profiles with **Data 360 identity resolution**
+- **Unify the list:** resolve duplicate rows into single customer profiles with **Data Cloud identity resolution**
 - **Separate the audiences:** split contacts into **mutually exclusive segments**, so first-time buyer messages never reach existing owners
 - **Respect consent:** check consent and suppression **before every send** across Email, SMS, and WhatsApp
 - **Hand over cleanly:** route warm leads to sales automatically, with **one owner per lead**
