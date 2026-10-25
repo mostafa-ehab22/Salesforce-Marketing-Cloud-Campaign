@@ -51,7 +51,7 @@ Identity resolution cut the list in two steps:
 </div>
 
 > [!IMPORTANT]
-> **No journey design can turn 61 warm people into 120 booked visits.** This build converts as many of the 61 as possible and makes the case for more qualified leads.
+> **No journey design can turn 61 warm people into 120 booked visits.** This build converts as many of the 61 as possible and makes the case for more qualified leads to close the gap.
 
 ## 🧱 Three Audiences, One List
 
