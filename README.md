@@ -39,7 +39,7 @@ Four months of paid social and portal lead generation filled the pipeline, but *
 > [!NOTE]
 > Success is measured by **confirmed appointments**, not opens or clicks.
 
-## 🧮 The Honest Math
+## 🧮 Honest Math
 
 Identity resolution cut the list in two steps:
 
