@@ -183,12 +183,12 @@ Consent is stored as **individual consent records**, not a single boolean, and r
     └── *.png                             # Screenshots
 ```
 
-## 🔍 What the Data Cannot Prove
+## 🔍 What Data Cannot Prove
 
 - **Small sample:** the journey ran on a directional sample, not a statistically significant population. Conversion rates cannot be generalised without a larger controlled test.
 - **Score is not commitment:** an engagement score predicts intent, not booking.
 
-## 🔁 What I Would Do Differently
+## 🔁 Future Enhancements 
 
 - **Start with more volume.** A 61-person addressable pool cannot hit 120 visits, so the next build runs paid acquisition in parallel from day one.
 - **Separate the Owner flow into its own journey earlier.** Mixing cross-sell and nurture logic in one canvas added suppression complexity that a dedicated flow would have avoided.
