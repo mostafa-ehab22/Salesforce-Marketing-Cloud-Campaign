@@ -1,6 +1,6 @@
 # 🧱 Segment Logic
 
-All segments are built **on `UnifiedIndividual`** (Data 360), refresh **daily at 09:00 Africa/Cairo**, and are **mutually exclusive** by construction (priority order: Owners → High-Intent → Dormant).
+All segments are built **on `UnifiedIndividual`** (Data Cloud), refresh **daily at 09:00 Africa/Cairo**, and are **mutually exclusive** by construction (priority order: Owners → High-Intent → Dormant).
 
 ## 🎯 Segment 1: High-Intent Leads (37)
 | Attribute | Rule |
@@ -33,7 +33,7 @@ All segments are built **on `UnifiedIndividual`** (Data 360), refresh **daily at
 
 ## 📈 Engagement Score (Calculated Insight): Design Proposal
 
-A reusable, multi-source metric computed in Data 360 and referenced by segments and decision splits.
+A reusable, multi-source metric computed in Data Cloud and referenced by segments and decision splits.
 
 ```text
 Engagement_Score =
