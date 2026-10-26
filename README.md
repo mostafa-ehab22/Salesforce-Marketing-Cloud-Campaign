@@ -144,7 +144,7 @@ Both click paths (early click and second check) call the **same autolaunched sub
 > [!TIP]
 > One owner per lead and one task per click event is what prevents several agents from calling the same lead.
 
-## 🏠 Second Flow: Owner Service (Data Cloud-Triggered)
+## 🏠 Data Cloud-Triggered Flow: Owner Service
 
 A separate **Data Cloud record-triggered Flow** on `UnifiedIndividual` that fires **only when `Instalment_Status` changes to `Due Soon`**.
 
