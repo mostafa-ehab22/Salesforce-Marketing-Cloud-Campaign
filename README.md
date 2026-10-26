@@ -3,7 +3,7 @@
 ![Marketing Cloud Next](https://img.shields.io/badge/Marketing_Cloud_Next-F88962?logo=salesforce&logoColor=white)
 ![Data Cloud](https://img.shields.io/badge/Data_Cloud-0B827C?logo=salesforce&logoColor=white)
 
-A **14-day, multi-channel lead nurture and cross-sell campaign** for the *Badya Second Release* (Palm Hills Developments), built end to end on **Marketing Cloud Next** and **Data Cloud**.
+A **14-day, multi-channel lead nurture and cross-sell campaign** for the *Badya Second Release* (Palm Hills Developments), built on **Marketing Cloud Next** and **Data Cloud**.
 
 > [!IMPORTANT]
 > Completed during my [Xperience 1st](https://xperience1st.com/) internship. Palm Hills is the example client and all contact data is synthetic.
