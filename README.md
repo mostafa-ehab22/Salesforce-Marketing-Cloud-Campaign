@@ -34,7 +34,7 @@ Drive **120 booked site visits** in 14 days from a list of **460 rows**, before 
 - **Unify the list:** resolve duplicate rows into single customer profiles with **Data Cloud identity resolution**
 - **Separate the audiences:** split contacts into **mutually exclusive segments**, so first-time buyer messages never reach existing owners
 - **Respect consent:** check consent and suppression **before every send** across Email, SMS, and WhatsApp
-- **Hand over cleanly:** route warm leads to sales automatically, with **one owner per lead**
+- **Hand over cleanly:** route warm leads to sales automatically, **one owner per lead**
 
 > [!NOTE]
 > Success is measured by **confirmed appointments**, not opens or clicks.
