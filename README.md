@@ -47,7 +47,7 @@ Drive **120 booked site visits** in 14 days from a list of **460 rows**, before 
 - **Segmentation:** only **61 of them are warm** `37 High-Intent Leads + 24 Owners`. The other 27 Dormant Enquiries are cold.
 
 <div align="center">
-  <img src="docs/honest_math.png" alt="460 rows resolve to 420 people, 61 are warm, the target is 120 booked visits" width="100%"/>
+  <img src="docs/honest_math" alt="460 rows resolve to 420 people, 61 are warm, the target is 120 booked visits" width="100%"/>
 </div>
 
 > [!IMPORTANT]
