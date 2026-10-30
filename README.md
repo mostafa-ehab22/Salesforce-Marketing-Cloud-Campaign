@@ -1,9 +1,10 @@
 # 🎯 Project Overview
+
 ![Salesforce](https://img.shields.io/badge/☁️_Salesforce-00A1E0?logo=salesforce&logoColor=white)
 ![Marketing Cloud Next](https://img.shields.io/badge/Marketing_Cloud_Next-F88962?logo=salesforce&logoColor=white)
 ![Data Cloud](https://img.shields.io/badge/Data_Cloud-0B827C?logo=salesforce&logoColor=white)
 
-A **14-day, multi-channel lead nurture and cross-sell campaign** for the *Badya Second Release* (Palm Hills Developments), built on **Marketing Cloud Next** and **Data Cloud**.
+A **14-day, multi-channel lead nurture and cross-sell campaign** for the _Badya Second Release_ (Palm Hills Developments), built on **Marketing Cloud Next** and **Data Cloud**.
 
 > [!IMPORTANT]
 > Completed during my [Xperience 1st](https://xperience1st.com/) internship. Palm Hills is the example client and all contact data is synthetic.
@@ -13,6 +14,7 @@ A **14-day, multi-channel lead nurture and cross-sell campaign** for the *Badya 
 </div>
 
 ## 🛠️ Tech Stack
+
 - **Marketing Cloud Next**
 - **Data Cloud** `(Identity Resolution, Segments, Calculated Insights)`
 - **Salesforce Flow** `(Segment-triggered, Data Cloud-triggered, Autolaunched)`
@@ -59,15 +61,15 @@ All three segments are built on **`UnifiedIndividual`** and refresh daily at **0
 
 <div align="center">
 
-| Metric | 🎯 High-Intent Leads | 🏠 Owners (Second Unit) | 💤 Dormant Enquiries |
-|:---:|:---:|:---:|:---:|
-| **Size** | 37 | 24 | 27 |
-| **Who** | Uncontracted, enquired, 8M+ | Purchased, active in app | Uncontracted, gone quiet |
-| **Key rule** | Last activity ≤ 90 days | App sessions (30d) ≥ 3, current | Last activity 91-365 days |
-| **Lookback** | 90 days | 30 days | 1 year |
-| **Subscription** | Project Launches | Resale & Investment | Project Launches |
-| **First email** | `PHD-E1` shortlist | `PHD-E2` owner-only allocation | `PHD-E3` one question, one link |
-| **Tone** | Direct, personal follow-up | Exclusive, early access | Low pressure |
+|      Metric      |    🎯 High-Intent Leads     |     🏠 Owners (Second Unit)     |      💤 Dormant Enquiries       |
+| :--------------: | :-------------------------: | :-----------------------------: | :-----------------------------: |
+|     **Size**     |             37              |               24                |               27                |
+|     **Who**      | Uncontracted, enquired, 8M+ |    Purchased, active in app     |    Uncontracted, gone quiet     |
+|   **Key rule**   |   Last activity ≤ 90 days   | App sessions (30d) ≥ 3, current |    Last activity 91-365 days    |
+|   **Lookback**   |           90 days           |             30 days             |             1 year              |
+| **Subscription** |      Project Launches       |       Resale & Investment       |        Project Launches         |
+| **First email**  |     `PHD-E1` shortlist      | `PHD-E2` owner-only allocation  | `PHD-E3` one question, one link |
+|     **Tone**     | Direct, personal follow-up  |     Exclusive, early access     |          Low pressure           |
 
 </div>
 
@@ -99,7 +101,9 @@ Entry (daily 09:00) → Stamp Entry Timestamp
 ```
 
 ### Global Suppression Check
+
 Runs at entry and before every send. A contact exits if **any** condition is true:
+
 1. Converted to an Owner
 2. Has an open complaint
 3. Received 3 or more marketing emails in the last 7 days
@@ -112,6 +116,7 @@ Runs at entry and before every send. A contact exits if **any** condition is tru
 Solves the **marketing overlap** problem: owners never receive first-time buyer nurture and nobody is over-messaged.
 
 ### Language Routing
+
 One journey, one timing, two routes. The email element uses **Locale = `Preferred_Language`**, so Arabic contacts get the Arabic variant of `PHD-E1` and everyone else (including blank) gets English.
 
 <div align="center">
@@ -156,11 +161,11 @@ The one decision it must get right: **is this message promotional or transaction
 
 <div align="center">
 
-| | Promotional | Transactional |
-|:---|:---:|:---:|
-| **Example** | Second-unit offer | Instalment due reminder |
-| **Needs active consent** | ✅ Yes | ❌ No |
-| **Subscription** | Resale & Investment | Owner Services |
+|                          |     Promotional     |      Transactional      |
+| :----------------------- | :-----------------: | :---------------------: |
+| **Example**              |  Second-unit offer  | Instalment due reminder |
+| **Needs active consent** |       ✅ Yes        |          ❌ No          |
+| **Subscription**         | Resale & Investment |     Owner Services      |
 
 </div>
 
@@ -173,12 +178,12 @@ The one decision it must get right: **is this message promotional or transaction
 
 <div align="center">
 
-| Subscription | Channels |
-|:---|:---:|
-| Palm Hills Project Launches | Email, SMS, WhatsApp |
-| Palm Hills Owner Services | Email, SMS |
-| Palm Hills Resale & Investment | Email |
-| Palm Hills Events & Community | Email, WhatsApp |
+| Subscription                   |       Channels       |
+| :----------------------------- | :------------------: |
+| Palm Hills Project Launches    | Email, SMS, WhatsApp |
+| Palm Hills Owner Services      |      Email, SMS      |
+| Palm Hills Resale & Investment |        Email         |
+| Palm Hills Events & Community  |   Email, WhatsApp    |
 
 </div>
 
@@ -189,12 +194,15 @@ Consent is stored as **individual consent records**, not a single boolean, and r
 ```text
 ├── README.md
 └── docs/
-    ├── segment_logic.md                  # Exact segment rules + Engagement Score
+    ├── segment_logic.md                  # Segment rules + proposed Engagement Score
     ├── journey_design.md                 # Flow nodes, timing, branching, sub-flow
     ├── personalization.md                # Dynamic content, merge fields, AMPscript equivalents
     ├── consent_model.md                  # Subscriptions, channel rules, preference centre
     ├── client_discovery_questions.md     # 10 questions before a real build
     ├── Badya_Campaign_Build_Deck.pdf     # Full presentation
+    ├── sql/
+    │   ├── engagement_score.sql          # Engagement Score as a Calculated Insight
+    │   └── segment_rules.sql             # Segment rules as SQL + overlap check
     └── *.png                             # Screenshots
 ```
 
@@ -203,7 +211,7 @@ Consent is stored as **individual consent records**, not a single boolean, and r
 - **Small sample:** the journey ran on a directional sample, not a statistically significant population. Conversion rates cannot be generalised without a larger controlled test.
 - **Score is not commitment:** an engagement score predicts intent, not booking.
 
-## 🔁 Future Enhancements 
+## 🔁 Future Enhancements
 
 - **Start with more volume.** A 61-person addressable pool cannot hit 120 visits, so the next build runs paid acquisition in parallel from day one.
 - **Separate the Owner flow into its own journey earlier.** Mixing cross-sell and nurture logic in one canvas added suppression complexity that a dedicated flow would have avoided.
