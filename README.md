@@ -29,7 +29,7 @@ Four months of paid social and portal lead generation filled the pipeline, but *
 
 ## 🎯 Objectives
 
-Drive **120 booked site visits** in 14 days from a list of **460 rows**, before any new paid spend.
+Drive **120 booked site visits** in 14 days from a list of **460 rows**, before any new paid media spend.
 
 - **Unify the list:** resolve duplicate rows into single customer profiles with **Data Cloud identity resolution**
 - **Separate the audiences:** split contacts into **mutually exclusive segments**, so first-time buyer messages never reach existing owners
