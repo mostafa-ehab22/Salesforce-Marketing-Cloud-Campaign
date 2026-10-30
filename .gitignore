@@ -5,6 +5,7 @@
 
 # Force SQL files to be counted in statistics
 *.sql linguist-detectable=true
+*.sql linguist-language=sql
 
 # Prevent the docs folder from suppressing the statistics of files inside it
 docs/** -linguist-documentation

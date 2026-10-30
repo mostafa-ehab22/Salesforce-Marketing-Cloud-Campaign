@@ -1,0 +1,5 @@
+# Force SQL files to be counted in statistics
+*.sql linguist-detectable=true
+*.sql linguist-language=sql
+
+docs/sql/** -linguist-documentation
