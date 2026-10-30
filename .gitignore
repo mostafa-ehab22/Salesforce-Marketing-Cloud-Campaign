@@ -2,3 +2,9 @@
 *.csv
 *.xlsx
 .DS_Store
+
+# Force SQL files to be counted in statistics
+*.sql linguist-detectable=true
+
+# Prevent the docs folder from suppressing the statistics of files inside it
+docs/** -linguist-documentation
